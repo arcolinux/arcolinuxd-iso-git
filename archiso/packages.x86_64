@@ -86,7 +86,7 @@ sg3_utils
 smartmontools
 sudo
 syslinux
-systemd-resolvconf
+#systemd-resolvconf
 tcpdump
 terminus-font
 #termite-terminfo

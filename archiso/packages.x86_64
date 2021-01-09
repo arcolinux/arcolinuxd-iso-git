@@ -715,12 +715,17 @@ arcod-calamares-config-git-git
 #arcod-calamares-config-next-git
 
 ###########################################################################
-#                                DISPLAY MANAGER
+#                                DISPLAY MANAGERS
 ###########################################################################
 
+accountsservice
+
 ###lightdm
-#accountsservice
 lightdm
+
+###sddm
+#sddm
+#sddm-sugar-candy-git
 
 ###########################################################################
 #                         PICOM OR COMPTON

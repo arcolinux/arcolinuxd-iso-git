@@ -1,17 +1,18 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name=arcolinuxd-git
+iso_name="arcolinuxd-git"
 iso_label="arcolinuxd-git-v21.05.1"
 iso_publisher="ArcoLinux <http://www.arcolinux.info>"
 iso_application="ArcoLinux Live/Rescue CD"
-iso_version="v21.05.1"
-install_dir=arch
+iso_version="v21.05.2"
+install_dir="arch"
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito' 'uefi-x64.systemd-boot.esp' 'uefi-x64.systemd-boot.eltorito')
 arch="x86_64"
 pacman_conf="pacman.conf"
-#airootfs_image_tool_options=('-comp' 'xz' '-Xbcj' 'x86' '-b' '1M' '-Xdict-size' '1M')
-airootfs_image_tool_options=('-comp' 'xz')
+airootfs_image_type="squashfs"
+airootfs_image_tool_options=('-comp' 'xz' '-Xbcj' 'x86' '-b' '1M' '-Xdict-size' '1M')
+#airootfs_image_tool_options=('-comp' 'xz')
 #airootfs_image_tool_options=('-comp' 'zstd' '-Xcompression-level' '22')
 #airootfs_image_tool_options=('-comp' 'zstd')
 file_permissions=(

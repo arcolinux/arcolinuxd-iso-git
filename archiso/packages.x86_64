@@ -123,16 +123,16 @@ xf86-input-libinput
 #xf86-input-synaptics
 xf86-input-vmmouse
 xf86-input-void
-#xf86-video-amdgpu
-#xf86-video-ati
+xf86-video-amdgpu
+xf86-video-ati
 #xf86-video-dummy
-#xf86-video-fbdev
-#xf86-video-intel
-#xf86-video-nouveau
-#xf86-video-openchrome
+xf86-video-fbdev
+xf86-video-intel
+xf86-video-nouveau
+xf86-video-openchrome
 #xf86-video-qxl
-#xf86-video-vesa
-#xf86-video-vmware
+xf86-video-vesa
+xf86-video-vmware
 #xf86-video-voodoo
 #xf86-video-sisusb
 mesa
@@ -273,7 +273,7 @@ numlockx
 #scrot
 #simplescreenrecorder
 termite
-variety
+#variety
 #vlc
 
 ###conky
@@ -464,7 +464,7 @@ paru-bin
 #sublime-text-dev
 #the_platinum_searcher-bin
 #tmux
-trizen
+#trizen
 urxvt-perls
 urxvt-resize-font-git
 #wttr
@@ -545,7 +545,7 @@ arcolinux-systemd-services-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
 #arcolinux-tweak-tool-git
-arcolinux-variety-git
+#arcolinux-variety-git
 #arcolinux-variety-autostart-git
 #arcolinux-volumeicon-git
 arcolinux-wallpapers-git
@@ -865,4 +865,7 @@ xfwm4
 ###########################################################################
 #                                ISO SPECIFIC
 ###########################################################################
-#polybar
+#arcolinuxb-installer-git
+nvidia
+nvidia-utils
+nvidia-settings

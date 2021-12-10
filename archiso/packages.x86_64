@@ -127,7 +127,6 @@ xl2tpd
 aic94xx-firmware
 dialog
 dnsutils
-grub
 linux-headers
 logrotate
 ntp
